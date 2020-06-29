@@ -1,0 +1,45 @@
+.navbar, .navbar-brand {
+  font-size: 22px;
+  background-color: #3F9588;
+  align-content: center;
+  align-items: center;
+}
+
+.nav-item {
+  display: inline-block;
+  color: #ffffff;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 1rem;
+}
+
+.navbar p {
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #ffffff;
+  margin: 1rem;
+}
+
+.nav-link {
+  display: inline-block;
+  color: #ffffff;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.navbar button {
+  background-color: Transparent;
+  border: none;
+  width: 100px;
+  cursor: pointer;
+}
+
+div .container {
+  padding: 10px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+

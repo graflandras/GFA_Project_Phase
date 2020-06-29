@@ -1,0 +1,31 @@
+.rsm-svg {
+  width: 980px;
+  height: 430px;
+}
+
+.taken-country {
+  fill: #f05545;
+  outline: none;
+}
+
+.free-country {
+  fill: #ECEFF1;
+  stroke: rgb(96, 125, 139);
+  stroke-width: 0.75;
+  outline: none;
+}
+
+.free-country:hover {
+  fill: #607D8B;
+  stroke: #607D8B;
+  stroke-width: 0.75;
+  outline: none;
+}
+
+.free-country:active {
+  fill: green;
+  stroke: #607D8B;
+  stroke-width: 0.75;
+  outline: none;
+}
+

@@ -1,0 +1,96 @@
+* {
+  margin:  0;
+  padding: 0;
+}
+
+$defaultBcgcolor: rgba(206, 206, 206, 0.8);
+$hovertBcgcolor:  rgb(88, 88, 88);
+
+.buildingItemContainer {
+  border-radius: 10px;
+  margin: 4px;
+  width: 22%;
+  display: inline-block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  &:hover { background-color: $hovertBcgcolor; }
+  &:hover p { color:#fff; }
+  &:active { background-color: $hovertBcgcolor; }
+
+  .buildingIconContainer {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 5px;
+    img {
+      width: 110px;
+    }
+  }
+  .textContainer {
+    color:$hovertBcgcolor;
+    font-size: 16px;
+    text-align: center;
+    justify-content: center;
+    p {
+      margin-bottom: 19px;
+    }
+  }
+}
+
+.buildingContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  overflow: scroll;
+  width: 100%;
+  height: 40vh;
+  border-radius: 5px 5px 0 0;
+  border-bottom: 1px solid black;    
+  &::-webkit-scrollbar {
+    -webkit-appearance: none;
+  }
+
+  &::-webkit-scrollbar:horizontal {
+    height: 6px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, .5);
+  }
+
+  &::-webkit-scrollbar-corner {
+    background: rgba(0,0,0,0);
+  }
+
+}
+
+.buildingContainer2{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  border-radius: 0 0 10px 10px;
+
+  .buildingIconContainer {
+    overflow: hidden;
+    img {
+      width: 110px;
+    }
+  }
+}
+
+.mainBuildingContainer {
+  margin-top: 20px; 
+  width: 100%;
+  min-width: 500px;
+  overflow: hidden;
+  background-color: rgba(206, 206, 206, 0.8);
+  border-radius: 5px 5px 5px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  padding-bottom: 20px;
+}

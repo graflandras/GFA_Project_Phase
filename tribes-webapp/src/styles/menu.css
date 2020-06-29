@@ -1,0 +1,45 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+.iconContainer img {
+  width:40px;
+  height: 40px;
+}
+
+.menuContainer ul {
+  display: flex;
+}
+
+.menuContainer ul li {
+  list-style-type: none;
+  width: 90px;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(206, 206, 206);
+  cursor: pointer;
+}
+
+.menuContainer ul li p {
+  color:rgb(71, 71, 71);
+  font-size: 12px;
+}
+.menuContainer ul li:hover {
+  background-color: rgb(88, 88, 88);
+}
+
+.menuContainer ul li:hover p {
+  color:#fff;
+}
+
+.menuContainer ul li:active {
+  background-color: rgb(88, 88, 88);
+}
+
+.menuContainer ul li:active p {
+  color:#fff;
+}

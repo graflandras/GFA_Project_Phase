@@ -1,0 +1,40 @@
+*, h2,p {
+  margin:0;
+  padding:0;
+}
+
+.iconBase {
+  img { 
+    width:60px;
+    height: 60px;
+  }
+}
+
+.resourceContainer {
+  height: 150px;
+  border-radius: 5px;
+  background-color: rgba(206, 206, 206, 0.8); 
+  display:inline-block;
+  padding: 10px 20px;
+  .resourceItem {
+    display:flex;
+    &:first-child {margin-bottom: 10px;}
+    .iconBase {
+      margin-right: 15px;
+    }
+    .allResource {
+      display:flex;
+      align-items: center;
+      img { width:30px; height: 30px; margin-left: 5px;}
+      h2 {color: rgb(61, 61, 61)}
+    }
+    .orange {
+      color:#FE6F21;
+      font-weight: bold;
+    }
+    .green {
+      color:#67A835;
+      font-weight: bold;
+    }
+  }
+}

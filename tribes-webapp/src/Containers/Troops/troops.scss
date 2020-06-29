@@ -1,0 +1,65 @@
+.mainTroopsContainer {
+  display: flex;
+  margin-top: 20px;
+  width: 100%;
+  min-width: 500px;
+  height: 392px;
+  overflow: hidden;
+  background-color: rgba(206, 206, 206, 0.8);
+  border-radius: 5px 5px 5px 5px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+.troopIcon {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.troopPicture {
+  margin-top: 10%;
+  display: flex;
+  width: 60%;
+}
+
+.troopText {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8%;
+  align-self: center;
+  width: 60%;
+  font-size: larger;
+}
+
+.upgradeTroops {
+  display: inline-flexbox;
+  width: 75%;
+  margin-left: 10%;
+  flex-direction: column;
+  align-items: center;
+  
+
+  button {
+    background: #3f9588 url('../../img/assets/troops.svg') no-repeat;
+    width: 50%;
+    height: 20%;
+    margin-top: 3%;
+    background-size: 15% auto;
+    background-position: center left 5%;
+  }
+
+  input {
+    font-size: larger;
+    text-align: center;
+    height: 20%;
+    width: 10%;
+    min-width: 10%;
+    background-color: darkorange;
+  }
+}

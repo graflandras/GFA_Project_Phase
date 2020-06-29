@@ -1,0 +1,46 @@
+.mainBattleContainer {
+  display: flex;
+  margin-top: 20px; 
+  width: 100%;
+  min-width: 500px;
+  height: 392px;
+  overflow: hidden;
+  background-color: rgba(206, 206, 206, 0.8);
+  border-radius: 5px 5px 5px 5px;
+}
+
+.rsm-svg {
+  width: 980px;
+  height: 430px;
+}
+
+.battle-taken-country {
+  fill: #f05545;
+  outline: none;
+  &:hover {
+    fill: #7f0000;
+  }
+}
+
+.battle-free-country {
+  fill: #ECEFF1;
+  stroke: rgb(96, 125, 139);
+  stroke-width: 0.75;
+  outline: none;
+}
+
+.battle-my-country {
+  fill: #00c853;
+  outline: none; 
+  &:hover {
+    fill:#009624;
+  }
+}
+
+.battle-free-country:hover {
+  fill: #607D8B;
+  stroke: #607D8B;
+  stroke-width: 0.75;
+  outline: none;
+}
+

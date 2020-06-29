@@ -1,0 +1,79 @@
+body {
+  background-size: 10% auto;
+  margin: 0;
+  padding: 0;
+}
+
+.register-container {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 22px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 500px;
+}
+
+h1 {
+  display: block;
+  color: white;
+  font-size: 40px;
+}
+
+form {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  display: inline-block;
+  height: 300px;
+  width: 385px;
+  padding: 5%;
+  
+  .input-field {
+    padding: 5%;
+    margin: 5%;
+    outline: 0;
+    background-color: transparent;
+    &:invalid {
+      border-bottom: 4px solid red;
+    }
+    &:required {
+      border-bottom: 2px solid #3F9588;
+    }
+    &:valid {
+      border-bottom: 4px solid green;
+    }
+  }
+}
+
+input {
+  width: 90%;
+  height: 30px;
+  border: 0;
+  outline: 0;
+}
+
+input[type="submit"] {
+  display: flex;
+  background-color: green;
+  color: white;
+  float: right;
+  padding: 10px;
+  width: 100px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.button-container {
+  align-content: flex-end;
+  display: flex;
+  flex-direction: row;
+  
+  button {
+    background-color: #48B100;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+}
